@@ -1,5 +1,5 @@
 FROM mysql:5.7
-
+# this i want to revert
 ADD my.cnf /etc/mysql/my.cnf
 
 ARG MYSQL_DATABASE
